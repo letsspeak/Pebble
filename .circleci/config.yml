@@ -24,7 +24,7 @@ jobs:
 
 workflows:
   version: 2
-  tests:
+  build:
     jobs:
       - linux
       - linux-release
@@ -40,4 +40,4 @@ workflows:
     jobs:
       - linux
       - linux-release
-      
+
